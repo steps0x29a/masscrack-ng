@@ -26,7 +26,10 @@ Let's face it, colored output is awesome! So you'll need `aurora` in order to ma
 
     go get -u github.com/logrusorgru/aurora
 
-After that you should be good to go.
+As `gocrack` utilizes `aircrack-ng`, it is required in order for `gocrack` to work. 
+Check out https://www.aircrack-ng.org/ for installation instructions. 
+
+`gocrack` assumes that `aircrack-ng` is in your `$PATH`. 
 
 # Disclaimer
 This tool is for educational purposes only! Do not attempt to crack WiFi passphrases for networks that you do not own! Make sure the network owner consents to you attempting to crack the password.
